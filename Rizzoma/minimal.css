@@ -23,9 +23,9 @@ https://github.com/WaveWatchers/wave-custom-styles/blob/master/Rizzoma/minimal.c
 }
 
 .blip-container {
-    background-color: #fff;
+    background-color: #fff !important;
     border: 0;
-    border-radius: 0;
+    border-radius: 0 !important;
     border-top: .1rem solid #fcc;
     margin-bottom: 0;
     min-height: 2.5rem;
@@ -33,7 +33,7 @@ https://github.com/WaveWatchers/wave-custom-styles/blob/master/Rizzoma/minimal.c
 }
 
 .blip-container.active {
-    background-color: #ffa;
+    background-color: #ffa !important;
 }
 
 .blip-container:last-child:not(.active) {
@@ -63,7 +63,7 @@ https://github.com/WaveWatchers/wave-custom-styles/blob/master/Rizzoma/minimal.c
 }
 
 .root-blip.active {
-    background-color: #fff;
+    background-color: #fff !important;
 }
 
 .root-blip > .blip-info {
@@ -71,4 +71,3 @@ https://github.com/WaveWatchers/wave-custom-styles/blob/master/Rizzoma/minimal.c
     position: absolute;
     top: 2.5rem;
 }
-
