@@ -1,0 +1,88 @@
+@import url("https://c9.io/alfredoabambres/wave-custom-styles/workspace/Rizzoma/minimal.css");
+
+.tabs-container {
+  z-index: 3;
+  position: absolute;
+  top: 0; left: 0;
+  width: 320px !important;
+  height: 50px;
+  min-height: 0;
+  margin: 0; 
+  padding: 0;
+}
+
+.tabs-container .tab {
+  display: inline-block;
+  width: auto;
+  height: 50px;
+  margin: 0;
+  margin-top: 0;
+  padding: 0px 8px 20px;
+  border: none;
+}
+
+.tabs-container .tab:first-child {
+  height: auto;
+  width: 112px;
+  text-align: right;
+}
+
+.tabs-container .pict {
+  display: none;
+}
+
+.new-topic-buttons {
+  position: absolute;
+  top: 0;
+  left: 8px;
+  margin-top: 8px;
+}
+
+.help-tab {
+  z-index: 3;
+  position: fixed !important;
+  top: 0;
+  right: 120px;
+}
+
+.navigation-container {
+  z-index: 4;
+  position: absolute;
+  left: 0;
+  top: 50px;
+  width: 320px !important;
+}
+
+.search-lists-container {
+  width: 100%;
+}
+
+.right-tools-panel {
+  z-index: 2;
+}
+.right-tools-panel .unvisible {
+  display: none;
+}
+.right-tools-panel .account-container {
+  height: 34px;
+  margin: 4px 15px 0;
+}
+.right-tools-panel .account-button {
+  margin: 0; padding: 0;
+}
+.right-tools-panel .avatar {
+  border: none;
+}
+
+/*
+WAVE
+*/
+
+.wave-container {
+  z-index: 1;
+  position: absolute !important;
+  top: 0; left: 318px;
+  margin: 0 !important;
+  padding: 0;
+}
+
