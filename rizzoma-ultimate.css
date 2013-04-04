@@ -17,13 +17,13 @@
   height: 50px;
   margin: 0;
   margin-top: 0;
-  padding: 0px 8px 20px;
+  padding: 0 8px;
   border: none;
 }
 
 .tabs-container .tab:first-child {
-  height: auto;
-  width: 112px;
+  height: 50px;
+  width: 110px;
   text-align: right;
 }
 
@@ -34,15 +34,15 @@
 .new-topic-buttons {
   position: absolute;
   top: 0;
-  left: 8px;
+  left: 10px;
   margin-top: 8px;
 }
 
 .help-tab {
   z-index: 3;
-  position: fixed !important;
+  position: absolute !important;
   top: 0;
-  right: 120px;
+  right: -50px;
 }
 
 .navigation-container {
@@ -50,7 +50,7 @@
   position: absolute;
   left: 0;
   top: 50px;
-  width: 320px !important;
+  width: 320px;
 }
 
 .search-lists-container {
@@ -59,19 +59,20 @@
 
 .right-tools-panel {
   z-index: 2;
-}
-.right-tools-panel .unvisible {
-  display: none;
+  margin-top: 9px;
 }
 .right-tools-panel .account-container {
-  height: 34px;
-  margin: 4px 15px 0;
+  height: 40px;
+  margin: 0 15px;
 }
 .right-tools-panel .account-button {
   margin: 0; padding: 0;
 }
 .right-tools-panel .avatar {
   border: none;
+}
+.right-tools-panel .unvisible {
+  display: none;
 }
 
 /*
@@ -81,8 +82,14 @@ WAVE
 .wave-container {
   z-index: 1;
   position: absolute !important;
-  top: 0; left: 318px;
-  margin: 0 !important;
+  top: 0; left: -78px;
+  margin-right: 65px !important;
   padding: 0;
+}
+
+.wave-header {
+  background-color: #718aa0;
+  float: right;
+
 }
 
