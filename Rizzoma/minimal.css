@@ -27,6 +27,10 @@ https://github.com/WaveWatchers/wave-custom-styles/blob/master/Rizzoma/minimal.c
   border-top: 2px solid #8292A1;
 }
 
+.blip-container.non-editable {
+  background-color: #fafafa;
+}
+
 .root-thread .editor-container {
   padding-left: 3rem;
 }
