@@ -1,0 +1,25 @@
+/*
+RIZZOMA TABS CONTAINER MINIMAL STYLE
+by:
+http://alfredo.abambres.com
+http://www.wavewatchers.org
+*/
+
+
+.tabs-container .tab {
+
+}
+
+.tabs-container .pict {
+  background-size: 40px;
+  background-position: left;
+  width: 20px;
+  height: 20px;
+}
+
+.tabs-container .active .pict {
+  background-size: 40px;
+  background-position: right;
+  width: 20px;
+  height: 20px;
+}

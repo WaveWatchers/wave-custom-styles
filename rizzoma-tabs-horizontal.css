@@ -1,0 +1,111 @@
+body {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+/*
+GLOBAL POSITIONING
+*/
+
+.wave-container {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-shadow: none;
+}
+.inner-wave-container {
+  margin-left: -78px;
+}
+
+.right-tools-panel {
+  z-index: 2;
+  position: absolute;
+  top: 0; right: 0;
+}
+.right-tools-panel .unvisible {
+  display: none;
+}
+
+.navigation-container {
+  z-index: 2;
+  position: absolute;
+  bacground-color: transparent;
+}
+#navigation-panel {
+  padding-top: 50px;
+}
+
+.tabs-container {
+  z-index: 3;
+  position: absolute;
+  top: 0; left: 0;
+  width: 320px !important;
+  height: 50px; min-height: 50px;
+  margin: 0; padding: 0;
+}
+.tabs-container .tab {
+  display: inline-block;
+  width: auto;
+  height: 50px;
+  margin: 0;
+  padding: 0 8px;
+}
+.tabs-container .tab:first-child {
+  height: 50px;
+  width: 110px;
+  text-align: right;
+}
+
+/*
+TABS = MAIN NAVIGATION
+*/
+
+.tabs-container {
+  background-color: transparent;
+}
+
+.tabs-container .tab {
+  border: none;
+}
+
+.tabs-container .pict {
+  display: none;
+}
+
+.new-topic-buttons {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  margin-top: 8px;
+}
+
+.help-tab {
+  z-index: 3;
+  position: fixed !important;
+  top: 0;
+  right: 70px;
+}
+
+/*
+RIGHT TOOLS PANEL
+*/
+
+/*
+WAVE MAIN CONTENT
+*/
+
+.wave-header {
+  position: relative;
+  margin-top: 50px;
+  padding-bottom: 0;
+}
+.wave-header-button {
+  border: 0 !important;
+}
+
+.wave-content {
+  margin-top: -50px !important;
+  background-color: #fff;
+}
