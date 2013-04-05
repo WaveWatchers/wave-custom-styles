@@ -17,13 +17,14 @@ https://github.com/WaveWatchers/wave-custom-styles/blob/master/Rizzoma/minimal.c
   border-top: 1px solid #faa;
   border-radius: 0;
 }
-
+    
 .blip-container .active {
   background-color: #ffd;
 }
 
 .blip-container .active:not(.root-blip) {
   background-color: #ffa;
+  border-top: 2px solid #8292A1;
 }
 
 .root-thread .editor-container {
