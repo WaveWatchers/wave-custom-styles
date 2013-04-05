@@ -7,9 +7,20 @@ http://userstyles.org/styles/85193/rizzoma-minimal-ui
 https://github.com/WaveWatchers/wave-custom-styles/blob/master/Rizzoma/minimal.css
 */
 
+.wave-container {
+  z-index: 1;
+}
+
+.right-tools-panel {
+  z-index: 2;
+}
+.right-tools-panel .unvisible {
+  display: none;
+}
+
 .root-blip {
-    margin-top: -1rem;
-    padding-top: 2.5rem;
+  margin-top: -1rem;
+  padding-top: 2.5rem;
 }
 
 .root-thread .blip-container {
