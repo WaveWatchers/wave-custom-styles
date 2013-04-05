@@ -18,7 +18,7 @@ https://github.com/WaveWatchers/wave-custom-styles/blob/master/Rizzoma/minimal.c
   border-radius: 0;
 }
 
-.blip-container .active:not(.root-blip) {
+.blip-container .active {
   background-color: #ffa;
 }
 
