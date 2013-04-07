@@ -7,26 +7,27 @@ http://userstyles.org/styles/85193/rizzoma-minimal-ui
 https://github.com/WaveWatchers/wave-custom-styles/blob/master/Rizzoma/minimal.css
 */
 
-.wave-container {
-  z-index: 1;
-}
-
 .right-tools-panel {
-  z-index: 2;
+  z-index: 3;
 }
 .right-tools-panel .unvisible {
   display: none;
-}
-
-.root-blip {
-  margin-top: -1rem;
-  padding-top: 2.5rem;
 }
 
 .root-thread .blip-container {
   border: 0;
   border-top: 1px solid #faa;
   border-radius: 0;
+}
+
+.root-thread .editor-container {
+  padding-left: 3rem;
+}
+
+.root-blip {
+  margin-top: -1rem;
+  padding-top: 2.5rem;
+  border-top: 0 !important;
 }
     
 .blip-container .active {
@@ -40,10 +41,6 @@ https://github.com/WaveWatchers/wave-custom-styles/blob/master/Rizzoma/minimal.c
 
 .blip-container.non-editable {
   background-color: #fafafa;
-}
-
-.root-thread .editor-container {
-  padding-left: 3rem;
 }
 
 .blip-info {
