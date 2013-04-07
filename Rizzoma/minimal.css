@@ -14,26 +14,16 @@ https://github.com/WaveWatchers/wave-custom-styles/blob/master/Rizzoma/minimal.c
   display: none;
 }
 
-.wave-blips {
-  overflow-x: hidden;
-}
-
 .root-thread .blip-container {
+  border-radius: 0;
   border: 0;
   border-top: 1px solid #faa;
-  border-radius: 0;
 }
 
 .root-thread .editor-container {
-  padding-left: 3rem;
+  padding: 0 0 0 3rem;
 }
 
-.root-blip {
-  margin-top: -1rem;
-  padding-top: 2.5rem;
-  border-top: 0 !important;
-}
-    
 .blip-container .active {
   background-color: #ffd;
 }
@@ -43,7 +33,7 @@ https://github.com/WaveWatchers/wave-custom-styles/blob/master/Rizzoma/minimal.c
   border-top: 2px solid #8292A1;
 }
 
-.blip-container.non-editable {
+.blip-container .non-editable {
   background-color: #fafafa;
 }
 
@@ -58,4 +48,28 @@ https://github.com/WaveWatchers/wave-custom-styles/blob/master/Rizzoma/minimal.c
 
 .fold-button-container {
   margin-left: .2rem;
+}
+
+.root-blip {
+  margin-top: -1rem;
+  padding: 0;
+  border-top: 0 !important;
+}
+
+.root-blip>.editor-container {
+  padding: 2.5rem 1rem 2.5rem 1.5rem;
+}
+
+.root-blip>.blip-info {
+  float: right;
+  margin: 2.2rem 4rem 0 0;
+  color: #f55;
+}
+
+.root-blip>.blip-info .avatar {
+  display: none;
+}
+
+.root-blip>.blip-info .edit-date {
+  font-size: 1rem;
 }
