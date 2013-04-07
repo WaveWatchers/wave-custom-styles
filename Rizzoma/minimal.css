@@ -14,6 +14,10 @@ https://github.com/WaveWatchers/wave-custom-styles/blob/master/Rizzoma/minimal.c
   display: none;
 }
 
+.wave-blips {
+  overflow-x: hidden;
+}
+
 .root-thread .blip-container {
   border: 0;
   border-top: 1px solid #faa;
