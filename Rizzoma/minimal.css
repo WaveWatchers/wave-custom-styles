@@ -14,6 +14,10 @@ https://github.com/WaveWatchers/wave-custom-styles/blob/master/Rizzoma/minimal.c
   display: none;
 }
 
+.wave-blips>.container-blip {
+  margin: 0; padding: 0;
+}
+
 .root-thread .blip-container {
   border-radius: 0;
   border: 0;
@@ -51,7 +55,6 @@ https://github.com/WaveWatchers/wave-custom-styles/blob/master/Rizzoma/minimal.c
 }
 
 .root-blip {
-  margin-top: -1rem;
   padding: 0;
   border-top: 0 !important;
 }
@@ -62,14 +65,6 @@ https://github.com/WaveWatchers/wave-custom-styles/blob/master/Rizzoma/minimal.c
 
 .root-blip>.blip-info {
   float: right;
-  margin: 2.3rem 4rem 0 0;
+  margin: 2.2rem 1.5rem 0 0;
   color: #f55;
-}
-
-.root-blip>.blip-info .avatar {
-  display: none;
-}
-
-.root-blip>.blip-info .edit-date {
-  font-size: 1rem;
 }
