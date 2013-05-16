@@ -69,7 +69,7 @@ https://github.com/WaveWatchers/wave-custom-styles/blob/master/Rizzoma/minimal.c
   color: #f55;
 }
 
-.blip-menu button.is-folded-by-default {
+.blip-menu button.is-folded-by-default.active {
   color: #000;
 }
 
