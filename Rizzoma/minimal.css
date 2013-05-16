@@ -68,3 +68,23 @@ https://github.com/WaveWatchers/wave-custom-styles/blob/master/Rizzoma/minimal.c
   margin: 2.2rem 1.5rem 0 0;
   color: #f55;
 }
+
+.blip-menu button.is-folded-by-default {
+  color: #000;
+}
+
+.bottom-blip-menu {
+  bottom: -30px;
+  border: 1px solid #f0f0f0;
+  border-top-color: #ddd;
+  border-bottom-color: #ddd;
+  border-radius: 0;
+}
+
+.blip-container .active:last-of-type {
+  margin-bottom: 30px;
+}
+
+.topic-tip, .wave-panel {
+  z-index: 1;
+}
