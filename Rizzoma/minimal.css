@@ -84,3 +84,7 @@ https://github.com/WaveWatchers/wave-custom-styles/blob/master/Rizzoma/minimal.c
 .blip-container .active:last-of-type {
   margin-bottom: 30px;
 }
+
+.topic-tip, .wave-panel {
+  z-index: 1;
+}
